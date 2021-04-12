@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {{>headlinks}}
+</head>
+
+<body>
+    {{>navbar}}
+    <!-- main header -->
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                   <!--leftside-->
+                   
+                   <div class="col-md-13 col-12 main_header_left align-items-center">
+                      <figure class="errimg">
+                        <img src="./image/404.png" alt="404" class="img-fluid" title="ttr">
+                      </figure>    
+
+                       <p>Welcome to the TTR weather app</p>
+                       <h1>{{errorMsg}}</h1>
+                      
+                       <a href="/" target="ttr"><button>GO BACK</button></a>
+                       
+                    </div>
+                   <!--rightside-->
+                  
+                </div>
+
+            </div>
+        </div>
+    </div>
+ 
+    <!--footer-->
+    {{>footer}}
+</body>
+
+</html>
